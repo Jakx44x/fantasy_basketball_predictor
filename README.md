@@ -11,6 +11,7 @@ The order in which to use these files is as follows:
 1.statScraper.py 
 This file will be used to scrape statistics off of NBA.com for a particular NBA season which you will specify as a variable.
 Once the data is in the program, it will parse it into a Pandas DataFrame and export it to csv file.
+-I gave 2 example files that were scraped using this program, one for the 2017-18 and the 2019-19 season
 
 2. fantasyTrainer.py
 Once you have the csv Files you will use the data to train a model using TensorFlows' Keras library. 
